@@ -1,4 +1,4 @@
-package main;
+package multichat;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -415,7 +415,7 @@ try {
 			}
 			
 	}
-	
+	/*
 //-------------------------------------- MAIN -----------------------------
 	public static void main(String[] args) {	
 		
@@ -423,7 +423,7 @@ try {
 
 	}	
 //-----------------------------------------------------
-	
+	*/
 //										EVENTOS
 //Eventos del ratón
 	@Override

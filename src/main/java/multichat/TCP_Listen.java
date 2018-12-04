@@ -1,4 +1,4 @@
-package main;
+package multichat;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -30,7 +30,7 @@ public class TCP_Listen implements Runnable{
 				e.printStackTrace();
 			}
 			try {
-				ss.setSoTimeout(5000);
+				ss.setSoTimeout(50000);
 			} catch (SocketException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

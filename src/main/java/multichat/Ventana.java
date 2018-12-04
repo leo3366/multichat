@@ -1,4 +1,4 @@
-package main;
+package multichat;
 import java.awt.Checkbox;
 import java.awt.Color;
 import java.net.Inet4Address;

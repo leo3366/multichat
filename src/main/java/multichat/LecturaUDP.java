@@ -1,4 +1,4 @@
-package main;
+package multichat;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
