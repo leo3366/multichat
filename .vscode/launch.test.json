@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "maven-folder",
+                "projectName": "maven-folder",
+                "workingDirectory": "/home/usuario/maven-folder",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "maven-folder",
+                "projectName": "maven-folder",
+                "workingDirectory": "/home/usuario/maven-folder",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

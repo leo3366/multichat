@@ -7,7 +7,7 @@
   <groupId>multichat</groupId>
   <artifactId>maven-folder</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+ <!-- <packaging>jar</packaging> -->
   <name>maven-folder</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -50,7 +50,22 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+          <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>multichat.App</mainClass>
+                           <!-- <addClasspath>true</addClasspath> -->
+                        </manifest>                      
+                    </archive>
+                    <!-- <properties>
+                      <start-class>com.tdkcloud.TdkCloudApplication</start-class>
+                    </properties> -->
+                </configuration>
         </plugin>
+       <!-- <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin> -->
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
